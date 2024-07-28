@@ -1,0 +1,89 @@
+#Certificate {
+    padding: 20px;
+    text-align: center;
+}
+
+.certificateTitle {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.certificateImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.certificateImg {
+    width: 100%;
+    display: flex;
+    background-color: rgb(51, 49, 49);
+    border-radius: 20px;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px; 
+    margin: 10px;
+    text-align: center;
+}
+
+.certificateImg:hover {
+    box-shadow: 1px 1px 15px rgb(99, 94, 94);
+} 
+
+.certificateImg img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.certificateImg h1 {
+    font-size: 32px; 
+    margin: 10px 0;
+}
+
+.spamTitle {
+    font-size: 16px; 
+}
+
+@media (min-width: 768px) {
+    .certificateImg {
+        max-width: 300px;
+    }
+
+    .certificateTitle {
+        font-size: 48px; 
+    }
+
+    .certificateImg h1 {
+        font-size: 26px; 
+    }
+
+    .spamTitle {
+        font-size: 18px; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .certificateImgs {
+        justify-content: space-around;
+    }
+
+    .certificateImg {
+        max-width: 450px; 
+    }
+
+    .certificateTitle {
+        font-size: 54px;
+    }
+
+    .certificateImg h1 {
+        font-size: 28px; 
+    }
+
+    .spamTitle {
+        font-size: 20px;
+    }
+}
